@@ -78,7 +78,7 @@ app.put('/users/:userId/skills', async (req, res) => {
 });
 
 
-app.patch('/users/:userId/premium', async (req, res) => {
+app.patch('/users/:userId/isPremium', async (req, res) => {
     try {
         const { userId } = req.params;
 
